@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Money</string>
+
+    <string name="open">Open navigation</string>
+    <string name="close">Close navigation</string>
+
+    <string name="main">Chính</string>
+    <string name="create">Tạo mới</string>
+    <string name="save">Đã lưu</string>
+    <string name="set">Cài đặt</string>
+    <string name="help">Hỗ trợ</string>
+    <string name="share">Giới thiệu</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/TenNhom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhóm giao dịch"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/text"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" />
+
+            <TextView
+                android:id="@+id/SoTien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+ 100.000 VNĐ"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/Ngay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/12/2022"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"/>
+
+            <TextView
+                android:id="@+id/TenVi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên ví"
+                android:gravity="right"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/GhiChu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ghi chú nè"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#A1A1A1"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

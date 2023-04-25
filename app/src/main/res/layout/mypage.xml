@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E3E3E3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_corner_16"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="#4FD59B"
+            android:src="@drawable/person" />
+
+        <TextView
+            android:id="@+id/name"
+            android:textColor="@color/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="000000000"
+            android:gravity="center"
+            android:textColor="#5A5A5A"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/vi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="#5A5A5A"
+        android:layout_marginTop="20dp"
+        android:text="   Ví của tôi"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/doimk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:text="Đổi mật khẩu"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:textColor="#5A5A5A"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/dangxuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Đăng xuất"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textColor="#5A5A5A"
+        android:padding="15dp"
+        android:textSize="20dp"/>
+
+
+
+</LinearLayout>

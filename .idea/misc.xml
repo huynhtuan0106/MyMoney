@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/add.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/bg_button.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/bg_cam_corner_16_text.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/bg_camdam_corner_16_text.xml" value="0.1385" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/bg_gray_corner_16.xml" value="0.144" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/bg_ok_corner_16.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/bg_white_corner_16_2.xml" value="0.1215" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/help.xml" value="0.184" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/link.xml" value="0.184" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/saved.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/settings.xml" value="0.184" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable-v24/share.xml" value="0.184" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/bg_email_edittext.xml" value="0.143" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/bg_login_button.xml" value="0.143" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/eye.xml" value="0.2555" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/eye_foreground.xml" value="0.2035" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/ic_mail_foreground.xml" value="0.143" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/ic_pass_background.xml" value="0.143" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/ic_pass_foreground.xml" value="0.143" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/name.xml" value="0.1815" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/name_background.xml" value="0.156" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/name_foreground.xml" value="0.156" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/phone_background.xml" value="0.156" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/phone_foreground.xml" value="0.156" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/save.xml" value="0.184" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/activity_signup.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/add.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/create.xml" value="0.2078125" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/create_wallet.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/dialog_logout.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/dialog_place.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/doimk.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/edit_wallet.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/ganday_item.xml" value="0.22735507246376813" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/help.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/history.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/mypage.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/mywallet.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/mywallet_item.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/notification.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/report.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/seen.xml" value="0.18206521739130435" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/set.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/view.xml" value="0.234375" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/view_gd.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/viewpaper.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/layout/viewpaper_list.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/menu/back.xml" value="0.23125" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/menu/menu_bottom.xml" value="0.234375" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/menu/menu_createwallet.xml" value="0.2078125" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/menu/menu_mywallet.xml" value="0.2078125" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/menu/menu_navigation.xml" value="0.2078125" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/menu/right_menu.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyMoney/app/src/main/res/mipmap-anydpi-v26/eye.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

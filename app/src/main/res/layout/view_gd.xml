@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:background="@drawable/bg_white_corner_16"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Chi tiết giao dịch"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textSize="20dp"
+        android:paddingLeft="25dp"
+        android:background="@drawable/bg_cam_corner_16_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/bg_white_corner_16_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Loại giao dịch"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/text" />
+
+        <TextView
+            android:id="@+id/LoaiGD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loại giao dịch"
+            android:textColor="#4E4E4E"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Chọn nhóm"
+            android:textColor="@color/text"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/LoaiNhom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhóm"
+            android:textColor="#4E4E4E"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Chọn ví"
+            android:textColor="@color/text"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/LoaiVi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loại ví"
+            android:textColor="#4E4E4E"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Số tiền"
+            android:textColor="@color/text"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SoTien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100.000 VNĐ"
+            android:textColor="#4E4E4E"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Ngày"
+            android:textColor="@color/text"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Ngay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10/12/2022"
+            android:textColor="#4E4E4E"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Ghi chú"
+            android:textColor="@color/text"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/GhiChu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ghi chú nè"
+            android:textSize="18dp"
+            android:textColor="#4E4E4E"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDong"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Đóng"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/text" />
+
+    </LinearLayout>
+
+</LinearLayout>

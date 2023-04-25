@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#E6E6E6"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/bg_white_corner_16">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên Ví"
+            android:textColor="@color/text"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/walletName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số dư"
+            android:textColor="@color/text"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            />
+
+        <EditText
+            android:id="@+id/walletBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trạng Thái"
+            android:textColor="@color/text"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/active"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đang hoạt động"
+                android:textSize="18dp"
+                android:buttonTint="@color/black" />
+            <RadioButton
+                android:id="@+id/lock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tạm khoá"
+                android:buttonTint="@color/black"
+                android:textSize="18dp"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btnXoa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:text="Xoá Ví"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="@drawable/bg_button"
+                android:textColor="@color/text"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/btnLuu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:text="Lưu"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:background="@drawable/bg_button"
+                android:textColor="@color/text"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
